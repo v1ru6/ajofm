@@ -1,0 +1,12 @@
+054ba4 - navigation
+4891ee - border navigation top
+
+
+
+misc : 292e2d dark-grey border
+	73aaf0 - hover style
+
+http://paletton.com/#uid=13D1u0kubU8igVFolUVLlSkP3vl
+
+-possible content color : 001b28
+-content-font 90b5c8

@@ -1,0 +1,114 @@
+* {margin: 0;padding: 0;font-family: "Trebuchet MS", Verdana, Arial, sans-serif;}
+
+/*
+***********************
+* =main styles for wrappers
+***********************
+*/
+
+#header-wrap,
+#nav-wrap,
+#container-wrap,
+#sub-footer-wrap,
+#footer-wrap {float: left;width: 100%;clear: both;}
+
+header,
+nav,
+#content-wrap,
+#sub-footer,
+footer {width: 80%;margin:auto;}
+
+/*
+***********************
+* =wrappers
+***********************
+*/
+
+#header-wrap {background: url(../images/bg-header.png) repeat-x;border-bottom: 1px solid #292e2d;}
+#nav-wrap {background: #054ba4; border-top: 1px solid #4891ee;border-bottom: 1px solid #292e2d;}
+#container-wrap {background:#d6edf9;}
+#content-wrap {margin-top:120px;margin-bottom:20px;background:url(../images/bg-content.gif) repeat;height:900px;border:1px solid #054BA4;box-shadow: 1px 2px 4px #505957;}
+#footer-wrap {background:#0A6BE7;}
+
+/*
+***********************
+* =navigation
+***********************
+*/
+	/************************************* 
+			BEGIN CASCADING MENU 
+	*************************************/
+
+ul#navmenu, ul.subnav, ul.sub-subnav {list-style-type:none;font-size:9pt;}
+ul#navmenu li {position:relative;float:left;width:120px;margin-right:4px;}
+ul#navmenu a {text-decoration:none;display:block;width:122px;line-height:25px;background:#054ba4;text-align: center;color:#fff;border-right: 1px solid #292e2d;}
+#pp-target {border-left: 1px solid #292e2d;}
+ul#navmenu .sub-subnav a {margin-left:122px;margin-top: -25px;padding-bottom: 25px;border:1px solid #292e2d;}
+ul#navmenu .sub-subnav a.lastchild {padding-bottom:0;}
+ul#navmenu ul.subnav {position:absolute;left:0px;display:none;}
+ul#navmenu ul.sub-subnav {position:absolute;display:none;}
+ul#navmenu li:hover .subnav {display:block;}
+ul#navmenu li:hover > a {background-color: #2079EC;}
+ul#navmenu li:hover a:hover {background-color: #73AAF0;}
+ul#navmenu .subnav li:hover .sub-subnav {display:block;}
+ul#navmenu .selected a {background-color:#73AAF0;}
+
+.darrow {font-size:9pt;position:absolute;top:5px;right:-2px;color:#fff;opacity:0.5;cursor:pointer;}
+.rarrow_pers, .rarrow_agec {font-size:9pt;position:absolute;color:#fff;opacity:0.5;cursor:pointer;}
+.rarrow_pers {top:2px;right:3px;}
+.rarrow_agec {top:13px;right:3px;}
+
+/*
+***********************
+* =content-left
+***********************
+*/
+
+#sidebar-left {float:left;width:20%;background:#73AAF0;height:100%;}
+#sidebar-left li {list-style-type: none;font-size: 90%;margin-top:5px;margin-left:5px;}
+#sidebar-left a {text-decoration: none;color:#052348;}
+#sidebar-left div:hover {background-color:#2079EC;}
+div#organigrama, 
+div#ROF, 
+div#buget11, 
+div#buget12,
+div#program,
+div#audiente, 
+div#venituri {padding:5px;margin-left:27px;margin-top:-27px;letter-spacing:.5px;}
+
+/*
+***********************
+* =content-right
+***********************
+*/
+
+#slider {width:90%; height:250px; padding-left: 5%;}
+#content-right {float:left;margin-top:10px;width:80%;}
+#content-right h4, #content-right p {color:#90b5c8; margin:0 5%;text-align: justify;font-weight: normal;}
+#content-right h4 {padding: 2% 0; font-style: italic;font-weight: bold;}
+
+/*
+***********************
+* =footer
+***********************
+*/
+
+footer #anofm {margin-left: 18%; margin-top: 7px;}
+footer #cnas, footer #cnpas {padding-bottom: 10px;}
+footer #cnfpa {padding-bottom: 29px;}
+footer li {list-style-type: none;display: inline;}
+footer ul li a {padding-left:5%;}
+
+footer a, footer span {font-size:9pt;color:#d6edf9;}
+#legal {margin-left:34.5%;padding-top:10px;}
+#legal a {text-decoration:none;}
+#legal a:hover {color:#0c2634;}
+
+#toparrow {position: absolute;margin-left:97%;margin-top:5px;opacity:0.9;}
+#toparrow img:hover {background-color:#0d2734;border-radius:17px;}
+
+
+
+
+
+
